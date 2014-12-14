@@ -33,5 +33,3 @@ const LOGIN = '/login';
 const SUCCESS = '/dashboard';
 const LOGOUT = '/login';
 const TIMEOUT = '900';
-
-?>
