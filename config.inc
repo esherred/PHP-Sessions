@@ -39,8 +39,4 @@ $session_success = '/dashboard';
 $session_logout = '/login';
 $session_timeout = '900';
 
-function injectionProtect($string) {
-  $string = stripslashes($string);
-  $string = mysql_real_escape_string($string);
-  return $string;
-}
+require('functions.inc');

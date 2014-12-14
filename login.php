@@ -2,6 +2,8 @@
 
 ob_start();
 
+require('config.inc');
+
 /**
  * Connect to server and select database
  */
